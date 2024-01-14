@@ -2,7 +2,7 @@ import yfinance as yf
 import matplotlib.pyplot as plt
 
 # Fetch historical stock data for Amazon
-amazon_stock = yf.download('AMZN', start='2020-01-01', end='2023-01-01')
+amazon_stock = yf.download('AMZN', start='2018-01-01', end='2023-01-01')
 
 # Plotting Amazon stocks in red
 plt.figure(figsize=(10, 6))
