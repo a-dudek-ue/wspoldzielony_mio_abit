@@ -6,7 +6,7 @@ amazon_stock = yf.download('AMZN', start='2018-01-01', end='2023-01-01')
 
 # Plotting Amazon stocks in red
 plt.figure(figsize=(10, 6))
-plt.plot(amazon_stock['Close'], color='red', label='Amazon Stock (AMZN)')
+plt.plot(amazon_stock['Close'], color='green', label='Amazon Stock (AMZN)')
 plt.title('Amazon Stock Prices')
 plt.xlabel('Date')
 plt.ylabel('Stock Price (USD)')
